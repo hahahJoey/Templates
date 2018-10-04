@@ -50,7 +50,7 @@ namespace myns {
 
 } // namespace myns
 
-// variadic base classes
+// variadic base classes and using
 
 class Customer {
 private:
