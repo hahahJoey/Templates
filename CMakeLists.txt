@@ -53,3 +53,8 @@ add_executable(variable_templates
         05_tricky_basics/variable_templates.cpp)
 
 add_executable(stack9 05_tricky_basics/stack9.cpp)
+
+add_executable(move 06_move_semantics/move.cpp)
+add_executable(specialmemtmp11 06_move_semantics/specialmemtmp11.cpp)
+add_executable(specialmemtmpl2 06_move_semantics/specialmemtmpl2.cpp)
+add_executable(specialmemtmpl3 06_move_semantics/specialmemtmpl3.cpp)
