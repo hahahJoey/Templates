@@ -58,3 +58,14 @@ add_executable(move 06_move_semantics/move.cpp)
 add_executable(specialmemtmp11 06_move_semantics/specialmemtmp11.cpp)
 add_executable(specialmemtmpl2 06_move_semantics/specialmemtmpl2.cpp)
 add_executable(specialmemtmpl3 06_move_semantics/specialmemtmpl3.cpp)
+
+add_executable(cref 07_value_reference/cref.cpp)
+add_executable(isprime 08_compile-time_programming/isprime.cpp
+        08_compile-time_programming/isprime11.hpp
+        08_compile-time_programming/isprime14.hpp
+        08_compile-time_programming/print.hpp
+        08_compile-time_programming/len.hpp)
+
+add_executable(foreach 11_generic_libraries/foreach.cpp)
+add_executable(foreachinvoke 11_generic_libraries/foreachinvoke.cpp 11_generic_libraries/invokeret.hpp)
+add_executable(defer_evaluation 11_generic_libraries/defer_evaluation.cpp)
